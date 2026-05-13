@@ -1,0 +1,77 @@
+body {
+    font-family: Arial;
+    background: linear-gradient(to right, #0a192f, #112240);
+    text-align: center;
+    color: white;
+}
+
+/* Glass container */
+.container {
+    margin-top: 100px;
+    display: inline-block;
+    padding: 40px;
+    border-radius: 15px;
+
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+/* Input box */
+input {
+    width: 320px;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+/* Placeholder color */
+input::placeholder {
+    color: #ddd;
+}
+
+/* Button */
+button {
+    padding: 12px 25px;
+    background: #ff9800;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #e68900;
+}
+
+/* Result box (glass effect) */
+.result {
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 12px;
+
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(8px);
+
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Headings */
+h1 {
+    margin-bottom: 30px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+/* Text */
+p {
+    font-size: 18px;
+}
